@@ -6,7 +6,7 @@
     </listeners>
     <test name="Chrome">
         <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.saucedemo.com/"/>
+        <parameter name="url" value=""/>
         <classes>
             <class name="Test.TC001">
             </class>
