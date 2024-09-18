@@ -1,6 +1,7 @@
 package Test;
 
-public class TC001 extends BaseClass{
+import org.testng.annotations.Test;
 
+public class TC001 extends BaseClass {
 
 }

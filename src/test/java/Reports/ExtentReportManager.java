@@ -22,7 +22,7 @@ public class ExtentReportManager {
 
         sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/reports/report.html");
         sparkReporter.config().setTheme(Theme.STANDARD);
-        sparkReporter.config().setReportName("Way2 assessment Report");
+        sparkReporter.config().setReportName("Assessment Extent Report");
 
         extent = new ExtentReports();
         extent.getStats();
@@ -43,6 +43,7 @@ public class ExtentReportManager {
             FileUtils.copyFile(src, destination);
         } catch (IOException e) {
             e.printStackTrace();
+
         }
 
     }

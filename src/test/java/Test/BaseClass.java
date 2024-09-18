@@ -32,6 +32,9 @@ public class BaseClass {
             case "edge":
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
+                break;
+            default:
+                System.out.println("Not a valid browser");
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().deleteAllCookies();
