@@ -14,7 +14,7 @@ import org.testng.annotations.Parameters;
 import java.time.Duration;
 
 public class BaseClass {
-    
+
     WebDriver driver;
     public Logger logger;
     @BeforeClass
