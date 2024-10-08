@@ -15,7 +15,7 @@ import java.time.Duration;
 
 public class BaseClass {
 
-    WebDriver driver;
+    public WebDriver driver;
     public Logger logger;
     @BeforeClass
     @Parameters({"browser","url"})
